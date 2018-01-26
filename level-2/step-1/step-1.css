@@ -18,6 +18,11 @@
     width: 100px;
     height: 40px;
     background: #536A63;
+    display:inline-block;
+    position:absolute;
+    left:10px;
+    top:10px;
+    
 }
 
 .logo {
@@ -25,12 +30,17 @@
     height: 40px;
     margin-top: 10px;
     background: #536A63;
+    display:inline-block;
 }
 
 .sign-in {
     width: 100px;
     height: 40px;
     background: #536A63;
+    display:inline-block;
+    position:absolute;
+    right:10px;
+    top:10px;
 }
 
 /*  Step-1 Make this container overhang off its parent container using display and bottom properties.  */
@@ -40,4 +50,7 @@
     height: 60px;
     left: 22%;
     background: #536A63;
+    bottom:-30px;
+    display:inline-block;
+    position:absolute;
 }
